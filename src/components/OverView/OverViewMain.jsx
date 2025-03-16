@@ -37,7 +37,7 @@ const OverViewMain = () => {
     <div className='w-full flex flex-col gap-4 bg-gray-50 p-4'>
         <div className='flex w-full gap-4'>
                     {firstrow_card.map((card, index) => (
-                        <div key={index} className='flex flex-col w-[25%] h-28 bg-[#c98b27]/90 rounded-xl p-[0.5px]'>
+                        <div key={index} className='flex flex-col w-[25%] h-28 bg-[#c98b27] rounded-xl p-[0.5px]'>
                             <div className='h-8 w-full flex justify-start bg-white rounded-t-xl p-2 gap-4'>
                                 <div className='rounded-full items-center p-1 bg-gray-700 w-5 h-5'>
                                     <card.icon className='w-3 h-3 text-white'/>
